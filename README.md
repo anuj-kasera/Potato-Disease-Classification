@@ -14,6 +14,7 @@ Potato Healthy: Images of healthy potato plants.
 <h2>Model Architecture</h2>
 The deep learning model is implemented using TensorFlow and Keras:
 
+
 Input images are resized to 256x256 pixels and normalized.
 
 Several convolutional layers followed by max-pooling layers are used for feature extraction.
@@ -21,7 +22,9 @@ Several convolutional layers followed by max-pooling layers are used for feature
 The model includes dense layers for classification, with a softmax activation function for multi-class classification.
 
 <h2>Training and Evaluation</h2>
+
 The dataset is split into training, validation, and test sets.
+
 
 Data augmentation techniques such as random flipping and rotation are applied to increase the robustness of the model.
 
@@ -32,5 +35,7 @@ The model is trained using the Adam optimizer with sparse categorical cross-entr
 Performance metrics including accuracy, precision, recall, and F1-score are evaluated on the test set.
 
 **Training Accuracy: 98.78%
+
 Validation Accuracy: 100%
+
 Test Accuracy: 99.21%**
