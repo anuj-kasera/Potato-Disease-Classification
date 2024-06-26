@@ -5,15 +5,15 @@ This project aims to classify plant diseases using deep learning techniques. The
 <h2>Dataset</h2>
 The dataset used for training consists of images sourced from the PlantVillage dataset. It includes:
 
-Potato Early Blight: Images of potato plants affected by early blight disease.
+1. Potato Early Blight: Images of potato plants affected by early blight disease.
 
-Potato Late Blight: Images of potato plants affected by late blight disease.
+2. Potato Late Blight: Images of potato plants affected by late blight disease.
 
-Potato Healthy: Images of healthy potato plants.
+3. Potato Healthy: Images of healthy potato plants.
 
 <h2>Model Architecture</h2>
-The deep learning model is implemented using TensorFlow and Keras:
 
+The deep learning model is implemented using TensorFlow and Keras:
 
 Input images are resized to 256x256 pixels and normalized.
 
@@ -32,6 +32,7 @@ The model is trained using the Adam optimizer with sparse categorical cross-entr
 
 
 <h2>Performance</h2>
+
 Performance metrics including accuracy, precision, recall, and F1-score are evaluated on the test set.
 
 **Training Accuracy: 98.78%
