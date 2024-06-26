@@ -35,8 +35,8 @@ The model is trained using the Adam optimizer with sparse categorical cross-entr
 
 Performance metrics including accuracy, precision, recall, and F1-score are evaluated on the test set.
 
-**Training Accuracy: 98.78%
+<b>Training Accuracy: 98.78%
 
 Validation Accuracy: 100%
 
-Test Accuracy: 99.21%**
+Test Accuracy: 99.21%</b>
