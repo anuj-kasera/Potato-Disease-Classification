@@ -3,7 +3,7 @@
 This project aims to classify plant diseases using deep learning techniques. The model is trained on a dataset containing images of diseased and healthy potato plants, categorized into three classes: Potato Early Blight, Potato Late Blight, and Potato Healthy. The trained model can predict the disease category of a potato plant based on its image.
 
 <h2>Dataset</h2>
-The dataset used for training consists of images sourced from the PlantVillage dataset [Kaggle](https://www.kaggle.com/datasets/arjuntejaswi/plant-village). It includes:
+The dataset used for training consists of images sourced from the PlantVillage dataset (https://www.kaggle.com/datasets/arjuntejaswi/plant-village). It includes:
 
 1. Potato Early Blight: Images of potato plants affected by early blight disease.
 
